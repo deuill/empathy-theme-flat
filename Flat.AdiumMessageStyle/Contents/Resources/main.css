@@ -1,0 +1,116 @@
+/**
+ * Generic styles.
+ */
+
+* {
+	word-wrap: break-word;
+	word-break: break-word;
+}
+
+html {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: Prelude, Arial, sans-serif;
+	font-size: 14px;
+	padding: 0;
+	margin: 0;
+}
+
+#Chat {
+	padding: 10px 0;
+}
+
+/**
+ * Global message styles.
+ */
+
+.message {
+	margin: 0.8em 0;
+}
+
+.message .gutter {
+	float: left;
+	text-align: center;
+	width: 4em;
+}
+
+.message .avatar {
+	background-color: #eee;
+	border-radius: 50%;
+	height: 2em;
+	margin-top: 0.15em;
+	width: 2em;
+}
+
+.message .bubble {
+	background-color: #eee;
+	border-radius: 3px;
+	margin: 0 1em 0 4em;
+	padding: 0.5em 0.8em 0.8em;
+	position: relative;
+}
+
+.message .bubble::before {
+	content: '';
+	border: 0.5em solid transparent;
+	border-right-color: #eee;
+	position: absolute;
+	left: -1em;
+	top: 0.7em;
+}
+
+.message .text {
+	color: #212121;
+	line-height: 1.8;
+	font-size: 0.9em;
+}
+
+.message .timestamp {
+	color: #999;
+	font-size: 0.8em;
+	margin-top: 0.25em;
+}
+
+/**
+ * Status styles.
+ */
+
+.status {
+	color: #999;
+	display: block;
+	margin: 0.5em 0;
+	text-align: center;
+}
+
+/**
+ * Other styles.
+ */
+
+a {
+	color: #4682b4;
+}
+
+.message.action {
+	color: #8b2323;
+	font-style: italic;
+}
+
+.message.action .sender {
+	display: none;
+}
+
+.message.action .actionMessageUserName {
+	display: inline;
+}
+
+div.message.action span.message::before {
+	content: " * ";
+}
+
+.message.action .actionMessageBody::before,
+.message.action .actionMessageBody::after {
+	content: " ";
+}

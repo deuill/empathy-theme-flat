@@ -1,0 +1,11 @@
+/**
+ * Styles for blue on grey message variant.
+ */
+
+.incoming .bubble {
+	background-color: #e3f2fd;
+}
+
+.incoming .bubble::before {
+	border-right-color: #e3f2fd;
+}
