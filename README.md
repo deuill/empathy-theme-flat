@@ -1,4 +1,4 @@
-# Flat theme for Empathy (and possibly Adium).
+# Flat theme for Empathy.
 
 This repository contains a flat theme, made and tested for Empathy, but possibly working on Adium as well.
 
@@ -8,7 +8,12 @@ To install locally for Empathy, simply place the `Flat.AdiumMessageStyle` direct
 
 There are two styles currently available, "Blue on Grey" and "Blue on Grey Alternating".
 
+### Blue on Grey
+
 ![Blue on Grey](https://github.com/deuill/empathy-theme-flat/raw/master/screenshots/screenshot-blue-on-grey.png "Blue on Grey")
+
+### Blue on Grey Alternating
+
 ![Blue on Grey Alternating](https://github.com/deuill/empathy-theme-flat/raw/master/screenshots/screenshot-blue-on-grey-alternating.png "Blue on Grey Alternating")
 
 ## License
