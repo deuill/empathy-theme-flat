@@ -1,4 +1,4 @@
-# Flat theme for Empathy.
+# Flat theme for Empathy
 
 This repository contains a flat theme, made and tested for Empathy, but possibly working on Adium as well.
 
